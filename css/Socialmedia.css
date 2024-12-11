@@ -1,0 +1,11 @@
+<style>
+@media (max-width: 768px) {
+    .btn-sm {
+        px-4; /* Mengurangi padding kiri dan kanan untuk ponsel */
+        py-2; /* Mengurangi padding atas dan bawah untuk ponsel */
+    }
+    .icon-sm {
+        h-5; /* Mengurangi ukuran tinggi gambar untuk ponsel */
+    }
+}
+</style>

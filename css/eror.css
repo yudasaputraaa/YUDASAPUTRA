@@ -1,0 +1,42 @@
+/* Latar Belakang */
+body {
+    background-color: #1a202c; /* Abu-abu gelap */
+    background-image: url("https://i.ibb.co/D9LgKfw/ERORBG.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Shadow Box Styling */
+.shadow-2xl {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* AOS Custom Animations */
+.aos-init {
+    opacity: 0;
+}
+
+.aos-animate {
+    opacity: 1;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Animasi Hover */
+footer img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) { /* Tablet */
+    .shadow-box {
+        padding: 1rem; /* Padding lebih kecil */
+    }
+}
+
+@media (max-width: 480px) { /* HP */
+    footer img {
+        height: 10rem; /* Sesuaikan ukuran logo footer */
+    }
+}

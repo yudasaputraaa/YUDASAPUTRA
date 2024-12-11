@@ -1,0 +1,12 @@
+<style>
+@media (max-width: 768px) {
+    .btn-small {
+        px-3; /* Mengurangi padding horizontal */
+        py-1.5; /* Mengurangi padding vertikal */
+        font-size: 0.875rem; /* Ukuran font yang lebih kecil */
+    }
+    .icon-small {
+        h-4; /* Mengurangi tinggi ikon untuk ponsel */
+    }
+}
+</style>
